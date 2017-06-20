@@ -31,7 +31,7 @@ public class Task {
 
     // Actually, just syntactic sugar
     @Nullable
-    public static Task tryCreattePeriodicTask(long delay, long period) {
+    public static Task tryCreatePeriodicTask(long delay, long period) {
         /*
         if (condition) {
             return new PeriodicTask(delay, period);

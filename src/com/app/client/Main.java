@@ -10,6 +10,6 @@ class Main {
         Task task1 = Task.newTask(0L);
         Task task2 = Task.newPeriodicTask(10L, 20L);
         Task task3 = Task.tryCreate(15L);
-        Task task4 = Task.tryCreattePeriodicTask(15L, 20L);
+        Task task4 = Task.tryCreatePeriodicTask(15L, 20L);
     }
 }
